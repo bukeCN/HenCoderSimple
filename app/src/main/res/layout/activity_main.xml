@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+<!--    <com.test.work.view.scroll.pullrefreshview.PullRefreshView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+<!--        <View-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:background="#f00"-->
+<!--            />-->
+<!--    </com.test.work.view.scroll.pullrefreshview.PullRefreshView>-->
+<!--    <com.test.work.view.scroll.ScrollParentView-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="200dp"-->
+<!--        android:background="@color/colorAccent"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        >-->
+<!--        <com.test.work.view.scroll.ScrollChilderView-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="100dp"/>-->
+<!--    </com.test.work.view.scroll.ScrollParentView>-->
+<!--    <com.test.hencodersimple.view12.ScaleableImageView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"/>-->
+<!--    <com.test.hencodersimple.view14.ViewPager-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+<!--        <View-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:background="#d95140"/>-->
+<!--        <View-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:background="#58a55c"/>-->
+
+<!--    </com.test.hencodersimple.view14.ViewPager>-->
+<!--    <com.test.hencodersimple.view13.MultipleTouchView02-->
+<!--        android:id="@+id/view"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        />-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="测试"-->
+<!--            android:background="@color/colorAccent"-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:textSize="40sp"/>-->
+<!--        <ImageView-->
+<!--            android:id="@+id/view"-->
+<!--            android:layout_width="200dp"-->
+<!--            android:layout_height="200dp"-->
+<!--            android:src="@drawable/duola"/>-->
+
+<!--    <com.test.hencodersimple.view10.TagLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+
+<!--        <com.test.hencodersimple.view10.ColorsTextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="20dp"-->
+<!--            android:text="北京市"-->
+<!--            android:layout_margin="10dp"/>-->
+<!--        <com.test.hencodersimple.view10.ColorsTextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="20dp"-->
+<!--            android:text="上海市" />-->
+<!--        <com.test.hencodersimple.view10.ColorsTextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="20dp"-->
+<!--            android:text="黑龙江省" />-->
+<!--        <com.test.hencodersimple.view10.ColorsTextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="20dp"-->
+<!--            android:text="吉林省" />-->
+<!--        <com.test.hencodersimple.view10.ColorsTextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="20dp"-->
+<!--            android:text="辽宁身" />-->
+<!--        <com.test.hencodersimple.view10.ColorsTextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="20dp"-->
+<!--            android:text="内蒙古自治区" />-->
+<!--        <com.test.hencodersimple.view10.ColorsTextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="20dp"-->
+<!--            android:text="河北省" />-->
+<!--        <com.test.hencodersimple.view10.ColorsTextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="20dp"-->
+<!--            android:text="河南省" />-->
+<!--        <com.test.hencodersimple.view10.ColorsTextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="20dp"-->
+<!--            android:text="山东省" />-->
+<!--        <com.test.hencodersimple.view10.ColorsTextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="20dp"-->
+<!--            android:text="山西省" />-->
+<!--        <com.test.hencodersimple.view10.ColorsTextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="20dp"-->
+<!--            android:text="陕西省" />-->
+<!--        <com.test.hencodersimple.view10.ColorsTextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="20dp"-->
+<!--            android:text="宁夏回族自治区" />-->
+<!--        <com.test.hencodersimple.view10.ColorsTextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="20dp"-->
+<!--            android:text="甘肃省" />-->
+<!--        <com.test.hencodersimple.view10.ColorsTextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="20dp"-->
+<!--            android:text="青海省" />-->
+<!--        <com.test.hencodersimple.view10.ColorsTextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="20dp"-->
+<!--            android:text="新疆维吾尔族自治区" />-->
+<!--        <com.test.hencodersimple.view10.ColorsTextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="20dp"-->
+<!--            android:text="四川省" />-->
+<!--        <com.test.hencodersimple.view10.ColorsTextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="20dp"-->
+<!--            android:text="重庆市" />-->
+<!--        <com.test.hencodersimple.view10.ColorsTextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="20dp"-->
+<!--            android:text="湖北省" />-->
+<!--        <com.test.hencodersimple.view10.ColorsTextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="20dp"-->
+<!--            android:text="安徽省" />-->
+<!--        <com.test.hencodersimple.view10.ColorsTextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="20dp"-->
+<!--            android:text="江苏省" />-->
+<!--        <com.test.hencodersimple.view10.ColorsTextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="20dp"-->
+<!--            android:text="上海市" />-->
+<!--        <com.test.hencodersimple.view10.ColorsTextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="20dp"-->
+<!--            android:text="浙江省" />-->
+<!--        <com.test.hencodersimple.view10.ColorsTextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="20dp"-->
+<!--            android:text="江西省" />-->
+<!--        <com.test.hencodersimple.view10.ColorsTextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="20dp"-->
+<!--            android:text="湖南省" />-->
+<!--        <com.test.hencodersimple.view10.ColorsTextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="20dp"-->
+<!--            android:text="贵州省" />-->
+<!--        <com.test.hencodersimple.view10.ColorsTextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="20dp"-->
+<!--            android:text="云南省" />-->
+<!--        <com.test.hencodersimple.view10.ColorsTextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="20dp"-->
+<!--            android:text="广西壮族自治区" />-->
+<!--        <com.test.hencodersimple.view10.ColorsTextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="20dp"-->
+<!--            android:text="广东省" />-->
+<!--        <com.test.hencodersimple.view10.ColorsTextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="20dp"-->
+<!--            android:text="福建省" />-->
+<!--        <com.test.hencodersimple.view10.ColorsTextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="20dp"-->
+<!--            android:text="台湾省" />-->
+<!--        <com.test.hencodersimple.view10.ColorsTextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="20dp"-->
+<!--            android:text="海南省" />-->
+<!--        <com.test.hencodersimple.view10.ColorsTextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="20dp"-->
+<!--            android:text="澳门" />-->
+<!--        <com.test.hencodersimple.view10.ColorsTextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="20dp"-->
+<!--            android:text="香港" />-->
+<!--    </com.test.hencodersimple.view10.TagLayout>-->
+
+
+</RelativeLayout>

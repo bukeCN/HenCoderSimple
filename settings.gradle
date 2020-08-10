@@ -1,0 +1,4 @@
+include ':ZhihuNextView'
+include ':myglide'
+include ':app'
+rootProject.name = "HenCoderSimple"
