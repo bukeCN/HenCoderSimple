@@ -14,11 +14,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        Glide.with(this)
-            .asGif()
-
-            .load("")
-            .into(view)
 
 
     }

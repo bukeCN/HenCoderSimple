@@ -17,7 +17,7 @@ import androidx.core.view.ViewCompat;
  * Author: liupang
  * Description:
  */
-public class TestActivity extends AppCompatActivity {
+public class DragMoveTestActivity extends AppCompatActivity {
     private ImageView dragView;
     private LinearLayout layout;
 
@@ -46,7 +46,7 @@ public class TestActivity extends AppCompatActivity {
                         Log.e("sun","目标");
                         String msg = (String) event.getLocalState();
                         LinearLayout linearLayout = (LinearLayout) v;
-                        TextView textView = new TextView(TestActivity.this);
+                        TextView textView = new TextView(DragMoveTestActivity.this);
                         textView.setText(msg);
                         textView.setTextSize(18);
                         linearLayout.addView(textView);
