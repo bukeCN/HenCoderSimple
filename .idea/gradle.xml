@@ -13,8 +13,16 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/ZhihuNextView" />
+            <option value="$PROJECT_DIR$/annotation" />
+            <option value="$PROJECT_DIR$/annotation_handle" />
+            <option value="$PROJECT_DIR$/annotation_lib" />
+            <option value="$PROJECT_DIR$/annotation_precessing" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/hiltsimple" />
+            <option value="$PROJECT_DIR$/hot_fix_simple" />
             <option value="$PROJECT_DIR$/myglide" />
+            <option value="$PROJECT_DIR$/plugin_main" />
+            <option value="$PROJECT_DIR$/pluginable" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
